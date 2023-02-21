@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(191, 221, 247);
+}
+.container{
+    border: solid 1px gray;
+    height: max-content;
+    width: max-content;
+    margin-top: 100px;
+    background-color: cadetblue;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#disp{
+    height: 50px;
+    width: fit-content;
+    text-align: right;
+    padding-right: 20px;
+    margin: 20px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+     margin: 5px;
+     border: none;
+     box-shadow: 5px 5px 5px rgb(13, 169, 242);
+     font-weight: bold;
+}
+.btn:hover{
+    background-color: aqua;
+ 
+}
+#allclr,#clr,#res{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+     margin: 5px;
+     border: none;
+
+}
+#res{
+    background-color:blue;
+}
+input{
+    font-size: x-large;
+    font-style: italic;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+}
